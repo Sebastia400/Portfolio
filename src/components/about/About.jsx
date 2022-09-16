@@ -6,8 +6,6 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-// Minuto 1:28
-
 const about = () => {
   return (
     <section id="about">
@@ -26,7 +24,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about_icon" />
@@ -40,12 +38,16 @@ const about = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus quas corrupti ratione minima facere quidem quibusdam
-            tempora qui aut consequuntur tempore illo in repudiandae optio
-            veritatis, suscipit laborum minus soluta.
+            My name is Sebastia, and I am currently coursing software
+            engineering at Epitech. Since I was young I knew I wanted to study
+            something related with technology, this is why when I grew up I
+            decided that I would study software engineering. In my opinion, I
+            think that IT is the future and this is why I spend much of my time
+            studying and researching by my own about new technologies.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
