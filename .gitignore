@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+/internals/libraries/*.jar
+/build
+/internals/scripts/user-data-dir/*
+!/internals/scripts/user-data-dir/.keep
+/src/version.json
+bundle.zip
+
+# misc
+.DS_Store
+/.env.local
+/.npmrc
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.eslintcache
+.history
